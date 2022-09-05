@@ -1,3 +1,6 @@
+"""
+Write a function which return all the unique palindromes from a given string.
+"""
 def expand(s, left, right):
     len_s = len(s)
     while left >= 0 and right < len_s and s[left] == s[right]:
