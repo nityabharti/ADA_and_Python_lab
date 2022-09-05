@@ -1,3 +1,6 @@
+"""
+Implement Binary Search
+"""
 def binary_search(arr: list, target, low=0, high=None) -> int:
     len_arr = len(arr)
     if high is None:
